@@ -722,8 +722,6 @@ MData GetActive(void){
 	int revert = RevertToNone;
 	XGetInputFocus(rDisplay, &window, &revert);
 
-    XCloseDisplay(rDisplay)
-
 	// Return foreground window
 	result.XWin = window;
 
